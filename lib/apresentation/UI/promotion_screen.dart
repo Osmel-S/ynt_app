@@ -119,6 +119,7 @@ class _PromotionState extends State<Promotion> {
                                           children: [
                                             Expanded(
                                               child: Container(
+                                                color:Colors.transparent,
                                                 child: Image.network(
                                                   listaPrincipais[index].productEntity![idx].photoUrl,
                                                   fit: BoxFit.cover,
