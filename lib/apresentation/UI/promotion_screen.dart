@@ -12,7 +12,6 @@ class Promotion extends StatefulWidget {
 class _PromotionState extends State<Promotion> {
 
    int?  indexProductEntity;
-   //ccaa
   @override
   Widget build(BuildContext context) {
     return Scaffold(
